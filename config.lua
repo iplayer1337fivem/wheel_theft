@@ -4,18 +4,18 @@ Config.debug = false
 
 -- Enabling this will let players lift the car up by using a `/...` command
 Config.command = {
-    enabled = false,
+    enabled = true,
     name = 'lift'
 }
 
 Config.esxSettings = {
-    enabled = true,
-    useNewESXExport = true,
+    enabled = false,
+    useNewESXExport = false,
     account = 'bank'
 }
 
 Config.qbSettings = {
-    enabled = false,
+    enabled = true,
     useNewQBExport = true,
     account = 'bank',
     payInItems = {
@@ -32,7 +32,7 @@ Config.printLicensePlateToConsole = true
 -- Players can only raise/lower TARGET VEHICLES by default
 Config.jackSystem = {
    ['raise'] = {
-       everyone = false, --everyone can raise any car
+       everyone = true, --everyone can raise any car
 
        -- Only these jobs can raise any car
        jobs = {
@@ -64,7 +64,7 @@ Config.job = {
 --- Comments are placed in the script files, so you can see where to add target if you wish to :)
 Config.target = {
     enabled = false,
-    system = 'ox-target'
+    system = 'ox_target'
 }
 
 -------------------------------------------------

@@ -11,7 +11,7 @@ version '1.2.2'
 
 server_scripts {
     'config.lua',
-    'server/esx.lua',
+    --'server/esx.lua',
     'server/qb.lua',
     'server/server.lua',
 }
@@ -25,7 +25,7 @@ client_scripts {
     'config.lua',
     'client/truckSpawn.lua',
     'client/policeAlert.lua',
-    'client/framework_functions/esx.lua',
+    --'client/framework_functions/esx.lua',
     'client/framework_functions/qb.lua',
     'client/client.lua',
     'client/functions.lua',
